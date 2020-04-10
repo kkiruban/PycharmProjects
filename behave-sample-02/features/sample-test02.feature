@@ -15,5 +15,4 @@ Feature: User registration
     Then I wait on element "#username"
     When I set "username" to the inputfield "#username"
     When I set "password" to the inputfield "#password"
-#   When I click on the button "#_eventId_submit"
-    When I click on button "#_eventId_submit" button
+    When I click on the button "#_eventId_submit"
