@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4e66ba6-2dfc-4e7b-8640-2622e03bc679" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gherkin feature file" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aJYF6Y8fLNlhzy3aGZv7HkIk9D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sampleenv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Behave.sample_test.feature:Create a new US personal user">
+    <configuration name="sample_test.feature:Create a new US personal user" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="behave-sample-01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/sample_test.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Create a new US personal user" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_test.feature:Create a new US personal user" type="PyLettuceRunConfigurationType" factoryName="Lettuce" temporary="true">
+      <module name="behave-sample-01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/sample_test.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="1" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Behave.sample_test.feature:Create a new US personal user" />
+        <item itemvalue="Lettuce.sample_test.feature:Create a new US personal user" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4e66ba6-2dfc-4e7b-8640-2622e03bc679" name="Default Changelist" comment="" />
+      <created>1586455056478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586455056478</updated>
+      <workItem from="1586455060725" duration="767000" />
+      <workItem from="1586455997491" duration="12342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="279" width="482" height="529" key="FileChooserDialogImpl" timestamp="1586510663485">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="714" y="279" width="482" height="529" key="FileChooserDialogImpl/0.27.1920.1020@0.27.1920.1020" timestamp="1586510663485" />
+    <state width="1352" height="310" key="GridCell.Tab.0.bottom" timestamp="1586510694581">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.0.bottom/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694581" />
+    <state width="1352" height="310" key="GridCell.Tab.0.center" timestamp="1586510694581">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.0.center/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694581" />
+    <state width="1352" height="310" key="GridCell.Tab.0.left" timestamp="1586510694580">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.0.left/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694580" />
+    <state width="1352" height="310" key="GridCell.Tab.0.right" timestamp="1586510694581">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.0.right/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694581" />
+    <state width="1352" height="310" key="GridCell.Tab.1.bottom" timestamp="1586510694582">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.1.bottom/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694582" />
+    <state width="1352" height="310" key="GridCell.Tab.1.center" timestamp="1586510694582">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.1.center/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694582" />
+    <state width="1352" height="310" key="GridCell.Tab.1.left" timestamp="1586510694582">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.1.left/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694582" />
+    <state width="1352" height="310" key="GridCell.Tab.1.right" timestamp="1586510694582">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state width="1352" height="310" key="GridCell.Tab.1.right/0.27.1920.1020@0.27.1920.1020" timestamp="1586510694582" />
+    <state x="456" y="172" width="1007" height="737" key="SettingsEditor" timestamp="1586510535384">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="456" y="172" width="1007" height="737" key="SettingsEditor/0.27.1920.1020@0.27.1920.1020" timestamp="1586510535383" />
+    <state x="685" y="366" width="540" height="349" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586510580828">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="685" y="366" width="540" height="349" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1020@0.27.1920.1020" timestamp="1586510580828" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/behave_sample_01$sample_test_feature_Create_a_new_US_personal_user.coverage" NAME="sample_test.feature:Create a new US personal user Coverage Results" MODIFIED="1586496429674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
