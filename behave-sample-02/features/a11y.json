@@ -41,18 +41,6 @@
             ]
         },
         {
-            "description": "Ensures role attribute has an appropriate value for the element",
-            "help": "ARIA role must be appropriate for the element",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI",
-            "id": "aria-allowed-role",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.aria",
-                "best-practice"
-            ]
-        },
-        {
             "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
             "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-dpub-role-fallback?application=axeAPI",
@@ -63,58 +51,6 @@
                 "cat.aria",
                 "wcag2a",
                 "wcag131"
-            ]
-        },
-        {
-            "description": "Ensures elements with ARIA roles have all required ARIA attributes",
-            "help": "Required ARIA attributes must be provided",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-attr?application=axeAPI",
-            "id": "aria-required-attr",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.aria",
-                "wcag2a",
-                "wcag412"
-            ]
-        },
-        {
-            "description": "Ensures elements with an ARIA role that require child roles contain them",
-            "help": "Certain ARIA roles must contain particular children",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-children?application=axeAPI",
-            "id": "aria-required-children",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.aria",
-                "wcag2a",
-                "wcag131"
-            ]
-        },
-        {
-            "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
-            "help": "Certain ARIA roles must be contained by particular parents",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-parent?application=axeAPI",
-            "id": "aria-required-parent",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.aria",
-                "wcag2a",
-                "wcag131"
-            ]
-        },
-        {
-            "description": "Ensures all elements with a role attribute use a valid value",
-            "help": "ARIA roles used must conform to valid values",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-roles?application=axeAPI",
-            "id": "aria-roles",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.aria",
-                "wcag2a",
-                "wcag412"
             ]
         },
         {
@@ -144,19 +80,6 @@
             ]
         },
         {
-            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
-            "help": "autocomplete attribute must be used correctly",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/autocomplete-valid?application=axeAPI",
-            "id": "autocomplete-valid",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.forms",
-                "wcag21aa",
-                "wcag135"
-            ]
-        },
-        {
             "description": "Ensures <blink> elements are not used",
             "help": "<blink> elements are deprecated and must not be used",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/blink?application=axeAPI",
@@ -172,36 +95,6 @@
             ]
         },
         {
-            "description": "Ensures buttons have discernible text",
-            "help": "Buttons must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI",
-            "id": "button-name",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.name-role-value",
-                "wcag2a",
-                "wcag412",
-                "section508",
-                "section508.22.a"
-            ]
-        },
-        {
-            "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
-            "help": "Page must have means to bypass repeated blocks",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/bypass?application=axeAPI",
-            "id": "bypass",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.keyboard",
-                "wcag2a",
-                "wcag241",
-                "section508",
-                "section508.22.o"
-            ]
-        },
-        {
             "description": "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent",
             "help": "Checkbox inputs with the same name attribute value must be part of a group",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/checkboxgroup?application=axeAPI",
@@ -211,19 +104,6 @@
             "tags": [
                 "cat.forms",
                 "best-practice"
-            ]
-        },
-        {
-            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-            "help": "Elements must have sufficient color contrast",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
-            "id": "color-contrast",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.color",
-                "wcag2aa",
-                "wcag143"
             ]
         },
         {
@@ -250,57 +130,6 @@
                 "cat.structure",
                 "wcag2a",
                 "wcag131"
-            ]
-        },
-        {
-            "description": "Ensures every id attribute value of active elements is unique",
-            "help": "IDs of active elements must be unique",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-active?application=axeAPI",
-            "id": "duplicate-id-active",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.parsing",
-                "wcag2a",
-                "wcag411"
-            ]
-        },
-        {
-            "description": "Ensures every id attribute value used in ARIA and in labels is unique",
-            "help": "IDs used in ARIA and labels must be unique",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-aria?application=axeAPI",
-            "id": "duplicate-id-aria",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.parsing",
-                "wcag2a",
-                "wcag411"
-            ]
-        },
-        {
-            "description": "Ensures every id attribute value is unique",
-            "help": "id attribute value must be unique",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI",
-            "id": "duplicate-id",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.parsing",
-                "wcag2a",
-                "wcag411"
-            ]
-        },
-        {
-            "description": "Ensures headings have discernible text",
-            "help": "Headings must not be empty",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI",
-            "id": "empty-heading",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.name-role-value",
-                "best-practice"
             ]
         },
         {
@@ -344,18 +173,6 @@
             ]
         },
         {
-            "description": "Ensures the order of headings is semantically correct",
-            "help": "Heading levels should only increase by one",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI",
-            "id": "heading-order",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.semantics",
-                "best-practice"
-            ]
-        },
-        {
             "description": "Ensures the lang attribute of the <html> element has a valid value",
             "help": "<html> element must have a valid value for the lang attribute",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/html-lang-valid?application=axeAPI",
@@ -382,33 +199,6 @@
             ]
         },
         {
-            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
-            "help": "Images must have alternate text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI",
-            "id": "image-alt",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.text-alternatives",
-                "wcag2a",
-                "wcag111",
-                "section508",
-                "section508.22.a"
-            ]
-        },
-        {
-            "description": "Ensure button and link text is not repeated as image alternative",
-            "help": "Text of buttons and links should not be repeated in the image alternative",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI",
-            "id": "image-redundant-alt",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.text-alternatives",
-                "best-practice"
-            ]
-        },
-        {
             "description": "Ensures <input type=\"image\"> elements have alternate text",
             "help": "Image buttons must have alternate text",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/input-image-alt?application=axeAPI",
@@ -424,70 +214,6 @@
             ]
         },
         {
-            "description": "Ensures that every form element is not solely labeled using the title or aria-describedby attributes",
-            "help": "Form elements should have a visible label",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI",
-            "id": "label-title-only",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.forms",
-                "best-practice"
-            ]
-        },
-        {
-            "description": "Ensures every form element has a label",
-            "help": "Form elements must have labels",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI",
-            "id": "label",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.forms",
-                "wcag2a",
-                "wcag332",
-                "wcag131",
-                "section508",
-                "section508.22.n"
-            ]
-        },
-        {
-            "description": "Ensures the banner landmark is at top level",
-            "help": "Banner landmark must not be contained in another landmark",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-banner-is-top-level?application=axeAPI",
-            "id": "landmark-banner-is-top-level",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.semantics",
-                "best-practice"
-            ]
-        },
-        {
-            "description": "Ensures the contentinfo landmark is at top level",
-            "help": "Contentinfo landmark must not be contained in another landmark",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-contentinfo-is-top-level?application=axeAPI",
-            "id": "landmark-contentinfo-is-top-level",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.semantics",
-                "best-practice"
-            ]
-        },
-        {
-            "description": "Ensures the main landmark is at top level",
-            "help": "Main landmark must not be contained in another landmark",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-main-is-top-level?application=axeAPI",
-            "id": "landmark-main-is-top-level",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.semantics",
-                "best-practice"
-            ]
-        },
-        {
             "description": "Ensures presentational <table> elements do not use <th>, <caption> elements or the summary attribute",
             "help": "Layout tables must not use data table elements",
             "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/layout-table?application=axeAPI",
@@ -496,48 +222,6 @@
             "nodes": [],
             "tags": [
                 "cat.semantics",
-                "wcag2a",
-                "wcag131"
-            ]
-        },
-        {
-            "description": "Ensures links have discernible text",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI",
-            "id": "link-name",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.name-role-value",
-                "wcag2a",
-                "wcag412",
-                "wcag244",
-                "section508",
-                "section508.22.a"
-            ]
-        },
-        {
-            "description": "Ensures that lists are structured correctly",
-            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/list?application=axeAPI",
-            "id": "list",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.structure",
-                "wcag2a",
-                "wcag131"
-            ]
-        },
-        {
-            "description": "Ensures <li> elements are used semantically",
-            "help": "<li> elements must be contained in a <ul> or <ol>",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/listitem?application=axeAPI",
-            "id": "listitem",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.structure",
                 "wcag2a",
                 "wcag131"
             ]
@@ -569,31 +253,6 @@
                 "wcag221",
                 "wcag224",
                 "wcag325"
-            ]
-        },
-        {
-            "description": "Ensures <meta name=\"viewport\"> can scale a significant amount",
-            "help": "Users should be able to zoom and scale the text up to 500%",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-viewport-large?application=axeAPI",
-            "id": "meta-viewport-large",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.sensory-and-visual-cues",
-                "best-practice"
-            ]
-        },
-        {
-            "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
-            "help": "Zooming and scaling must not be disabled",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI",
-            "id": "meta-viewport",
-            "impact": null,
-            "nodes": [],
-            "tags": [
-                "cat.sensory-and-visual-cues",
-                "wcag2aa",
-                "wcag144"
             ]
         },
         {
@@ -760,7 +419,150 @@
             ]
         }
     ],
-    "incomplete": [],
+    "incomplete": [
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "contrastRatio": 0,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#aaaaaa",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "bgGradient"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element's background color could not be determined due to a background gradient",
+                            "relatedNodes": [
+                                {
+                                    "html": "<footer class=\"footer-main\">",
+                                    "target": [
+                                        "footer"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<a href=\"https://www.redhat.com/footer/privacy-policy.html\" class=\"privacy-policy\">Privacy Policy</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".privacy-policy"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "contrastRatio": 0,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#aaaaaa",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "bgGradient"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element's background color could not be determined due to a background gradient",
+                            "relatedNodes": [
+                                {
+                                    "html": "<footer class=\"footer-main\">",
+                                    "target": [
+                                        "footer"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<a href=\"https://www.redhat.com/en/about/terms-use\" class=\"terms-of-use\">Terms of use</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".terms-of-use"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "contrastRatio": 0,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#aaaaaa",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "bgGradient"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element's background color could not be determined due to a background gradient",
+                            "relatedNodes": [
+                                {
+                                    "html": "<footer class=\"footer-main\">",
+                                    "target": [
+                                        "footer"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<a href=\"https://www.redhat.com/en/about/all-policies-guidelines\" class=\"all-policies\">All policies and guidelines</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".all-policies"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "contrastRatio": 0,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#aaaaaa",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "bgGradient"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element's background color could not be determined due to a background gradient",
+                            "relatedNodes": [
+                                {
+                                    "html": "<footer class=\"footer-main\">",
+                                    "target": [
+                                        "footer"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<small class=\"copyright\">Copyright \u00a9 2020 Red Hat, Inc.</small>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".copyright"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        }
+    ],
     "passes": [
         {
             "description": "Ensures aria-hidden='true' is not present on the document body.",
@@ -780,7 +582,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<body></body>",
+                    "html": "<body class=\"\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -792,6 +594,1891 @@
                 "cat.aria",
                 "wcag2a",
                 "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+            "help": "Required ARIA attributes must be provided",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-attr?application=axeAPI",
+            "id": "aria-required-attr",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-required-attr",
+                            "impact": "critical",
+                            "message": "All required ARIA attributes are present",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "main"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-children?application=axeAPI",
+            "id": "aria-required-children",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-required-children",
+                            "impact": "critical",
+                            "message": "Required ARIA children are present",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "main"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+            "help": "Certain ARIA roles must be contained by particular parents",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-parent?application=axeAPI",
+            "id": "aria-required-parent",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-required-parent",
+                            "impact": "critical",
+                            "message": "Required ARIA parent role present",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "main"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures all elements with a role attribute use a valid value",
+            "help": "ARIA roles used must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-roles?application=axeAPI",
+            "id": "aria-roles",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "invalidrole",
+                            "impact": "critical",
+                            "message": "ARIA role is valid",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "abstractrole",
+                            "impact": "serious",
+                            "message": "Abstract roles are not used",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "unsupportedrole",
+                            "impact": "critical",
+                            "message": "ARIA role is supported",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "main"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI",
+            "id": "button-name",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "Log In",
+                            "id": "button-has-visible-text",
+                            "impact": "critical",
+                            "message": "Element has inner text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<button type=\"submit\" id=\"_eventId_submit\" class=\"btn btn-primary\">Log In</button>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#_eventId_submit"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+            "help": "Page must have means to bypass repeated blocks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/bypass?application=axeAPI",
+            "id": "bypass",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "header-present",
+                            "impact": "serious",
+                            "message": "Page has a header",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "landmark",
+                            "impact": "serious",
+                            "message": "Page has a landmark region",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<html class=\"next\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag241",
+                "section508",
+                "section508.22.o"
+            ]
+        },
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 5.91,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#646464",
+                                "fontSize": "8.3pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 5.91",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"top-nav-subscriptions\" href=\"http://www.redhat.com\">RedHat.com</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".top-nav-subscriptions"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 5.91,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#646464",
+                                "fontSize": "8.3pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 5.91",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"top-nav-downloads\" href=\"https://access.redhat.com\">Customer Portal</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".top-nav-downloads"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "3:1",
+                                "fgColor": "#252527",
+                                "fontSize": "31.5pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h1 id=\"kc-header-wrapper\" class=\"\">        Log in to your Red Hat account\n</h1>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-header-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 7.45,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#555555",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 7.45",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input id=\"username\" class=\"form-control\" name=\"username\" value=\"\" type=\"text\" autocapitalize=\"off\" autocorrect=\"off\" maxlength=\"120\" placeholder=\"Red Hat login\" autofocus=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#username"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 7.45,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#555555",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 7.45",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input id=\"password\" class=\"form-control\" name=\"password\" type=\"password\" autocomplete=\"off\" placeholder=\"Password\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#password"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ee0000",
+                                "contrastRatio": 4.53,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 4.53",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<button type=\"submit\" id=\"_eventId_submit\" class=\"btn btn-primary\">Log In</button>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#_eventId_submit"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">New to Red Hat?</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(1) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<p>If you are new to Red Hat, register now for access to product evaluations and purchasing capabilities.</p>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(1) > .card.card-white > p"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">Need to access an account?</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<p>If your company has an existing Red Hat account, your organization administrator can grant you access.</p>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > p:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "10.2pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<small>*Organization administrators only</small>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "p:nth-child(4) > small"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">Get help</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.29,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#252527",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.29",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<p>If you have questions, contact customer service.</p>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > p"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        },
+        {
+            "description": "Ensures each HTML document contains a non-empty <title> element",
+            "help": "Documents must have <title> element to aid in navigation",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/document-title?application=axeAPI",
+            "id": "document-title",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "doc-has-title",
+                            "impact": "serious",
+                            "message": "Document has a non-empty <title> element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<html class=\"next\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag242"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value of active elements is unique",
+            "help": "IDs of active elements must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-active?application=axeAPI",
+            "id": "duplicate-id-active",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "_eventId_submit",
+                            "id": "duplicate-id-active",
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<button type=\"submit\" id=\"_eventId_submit\" class=\"btn btn-primary\">Log In</button>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#_eventId_submit"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "newMemberLink",
+                            "id": "duplicate-id-active",
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"cta-link\" id=\"newMemberLink\" href=\"https://www.qa.redhat.com/wapps/ugc/register.html?redirect=https%3A%2F%2Ftraining-lms-qa.redhat.com%2Fsso%2Fsaml%2Fauth%2Fredhat\">Register</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#newMemberLink"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value used in ARIA and in labels is unique",
+            "help": "IDs used in ARIA and labels must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-aria?application=axeAPI",
+            "id": "duplicate-id-aria",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "username",
+                            "id": "duplicate-id-aria",
+                            "impact": "critical",
+                            "message": "Document has no elements referenced with ARIA or labels that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input id=\"username\" class=\"form-control\" name=\"username\" value=\"\" type=\"text\" autocapitalize=\"off\" autocorrect=\"off\" maxlength=\"120\" placeholder=\"Red Hat login\" autofocus=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#username"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "password",
+                            "id": "duplicate-id-aria",
+                            "impact": "critical",
+                            "message": "Document has no elements referenced with ARIA or labels that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input id=\"password\" class=\"form-control\" name=\"password\" type=\"password\" autocomplete=\"off\" placeholder=\"Password\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#password"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value is unique",
+            "help": "id attribute value must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI",
+            "id": "duplicate-id",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "adobe_dtm",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script id=\"adobe_dtm\" src=\"https://www.redhat.com/dtm-staging.js\" type=\"text/javascript\"></script>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#adobe_dtm"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "at-makers-style",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<style id=\"at-makers-style\" class=\"at-flicker-control\">\n.mboxDefault {visibility: hidden;}\n</style>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#at-makers-style"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "page-wrap",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"page-wrap\" class=\"page-wrap\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#page-wrap"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "mobile-nav-btn",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<button id=\"mobile-nav-btn\" class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\"#mobile-nav\">\n                        <span class=\"web-icon-mobile-menu\"></span>\n                        <span class=\"link-text\">Menu</span>\n                    </button>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#mobile-nav-btn"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "scroll-anchor",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"scroll-anchor\" class=\"affix-top\">\n                </div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#scroll-anchor"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "header-nav",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"header-nav\" class=\"header-nav affix-top visible-sm visible-md visible-lg\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#header-nav"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "to-top",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"to-top\"><a class=\"btn_slideto\" href=\"#\"><span class=\"web-icon-upload\"></span></a></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#to-top"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "mobile-nav",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"mobile-nav\" class=\"mobile-nav navbar collapse navbar-collapse\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#mobile-nav"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-content",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-content\" class=\"container\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-content"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-content-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-content-wrapper\" class=\"row\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-content-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-header",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-header\" class=\"col-md-12\">\n                                <h1 id=\"kc-header-wrapper\" class=\"\">        Log in to your Red Hat account\n</h1>\n                            </div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-header"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-header-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h1 id=\"kc-header-wrapper\" class=\"\">        Log in to your Red Hat account\n</h1>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-header-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-form",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-form\" class=\"col-md-12\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-form"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-form-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-form-wrapper\" class=\"row push-top\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-form-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-form-login",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<form id=\"kc-form-login\" class=\"login-form col-md-5\" action=\"https://sso.qa.redhat.com/auth/realms/redhat-external/login-actions/authenticate?code=14mGHwM6KrcEs6wO5IA9zv-MmPNTO8V_dV2TiOzxY_o&amp;execution=6b767bf6-0638-4c12-99c6-7d5d846b6c81&amp;client_id=https%3A%2F%2Fsso1.seertechsolutions.com%2Fopensaml-sp&amp;tab_id=OwEgQzqCAjo\" method=\"post\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-form-login"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-form-options",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-form-options\" class=\"col-xs-4 col-sm-5 col-md-offset-4 col-md-4 col-lg-offset-3 col-lg-5\">\n                        <div class=\"\">\n                        </div>\n                    </div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-form-options"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-info",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-info\" class=\"band band-alt login-bottom\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-info"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kc-info-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"kc-info-wrapper\" class=\"container\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-info-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "destination_publishing_iframe_redhat_0",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<iframe sandbox=\"allow-scripts allow-same-origin\" title=\"Adobe ID Syncing iFrame\" id=\"destination_publishing_iframe_redhat_0\" name=\"destination_publishing_iframe_redhat_0_name\" src=\"https://redhat.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fsso.qa.redhat.com\" style=\"display: none; width: 0px; height: 0px;\" class=\"aamIframeLoaded\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#destination_publishing_iframe_redhat_0"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensures headings have discernible text",
+            "help": "Headings must not be empty",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI",
+            "id": "empty-heading",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h1 id=\"kc-header-wrapper\" class=\"\">        Log in to your Red Hat account\n</h1>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-header-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">New to Red Hat?</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(1) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">Need to access an account?</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">Get help</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > h2"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI",
+            "id": "heading-order",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 1,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order valid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h1 id=\"kc-header-wrapper\" class=\"\">        Log in to your Red Hat account\n</h1>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kc-header-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 2,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order valid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">New to Red Hat?</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(1) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 2,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order valid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">Need to access an account?</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > h2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 2,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order valid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<h2 class=\"card-heading\">Get help</h2>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > h2"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI",
+            "id": "image-alt",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-alt",
+                            "impact": "critical",
+                            "message": "Element has an alt attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<img src=\"/auth/resources/7.2.6.ga/login/new-red-hat-theme/ugc/next/img/l_summit.png\" alt=\"Red Hat Summit\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "img"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensure button and link text is not repeated as image alternative",
+            "help": "Text of buttons and links should not be repeated in the image alternative",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI",
+            "id": "image-redundant-alt",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li><a class=\"top-nav-subscriptions\" href=\"http://www.redhat.com\">RedHat.com</a></li>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav > ul > li:nth-child(1)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"top-nav-subscriptions\" href=\"http://www.redhat.com\">RedHat.com</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav-subscriptions"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li><a class=\"top-nav-downloads\" href=\"https://access.redhat.com\">Customer Portal</a></li>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav > ul > li:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"top-nav-downloads\" href=\"https://access.redhat.com\">Customer Portal</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav-downloads"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"http://www.redhat.com\" class=\"logo\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-xs-12 > .logo[href$=\"www.redhat.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"btn_slideto\" href=\"#\"><span class=\"web-icon-upload\"></span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".btn_slideto"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<button type=\"submit\" id=\"_eventId_submit\" class=\"btn btn-primary\">Log In</button>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#_eventId_submit"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"/auth/realms/redhat-external/login-actions/reset-credentials?client_id=https%3A%2F%2Fsso1.seertechsolutions.com%2Fopensaml-sp&amp;tab_id=OwEgQzqCAjo\">Forgot your login or password?</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".push-top > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<p>If you are new to Red Hat, register now for access to product evaluations and purchasing capabilities.</p>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(1) > .card.card-white > p"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"cta-link\" id=\"newMemberLink\" href=\"https://www.qa.redhat.com/wapps/ugc/register.html?redirect=https%3A%2F%2Ftraining-lms-qa.redhat.com%2Fsso%2Fsaml%2Fauth%2Fredhat\">Register</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#newMemberLink"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<p>If your company has an existing Red Hat account, your organization administrator can grant you access.</p>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > p:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://www.qa.redhat.com/wapps/ugc/protected/usermgt/createNewUser.html\" class=\"cta-link\">Create new user*</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > .cta-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<p><small>*Organization administrators only</small></p>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "p:nth-child(4)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<p>If you have questions, contact customer service.</p>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > p"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://access.redhat.com/support/contact/customerService/\" class=\"cta-link\">Contact customer service</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > .cta-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.redhat.com/summit/\" class=\"summit\"><img src=\"/auth/resources/7.2.6.ga/login/new-red-hat-theme/ugc/next/img/l_summit.png\" alt=\"Red Hat Summit\"></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".summit"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.linkedin.com/company/red-hat\" class=\"sm-icon linkedin\"><span class=\"web-icon-linkedin\"></span><span class=\"offscreen\">LinkedIn</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".linkedin"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.youtube.com/user/RedHatVideos\" class=\"sm-icon youtube\"><span class=\"web-icon-youtube\"></span><span class=\"offscreen\">YouTube</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".youtube"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.facebook.com/redhatinc\" class=\"sm-icon facebook\"><span class=\"web-icon-facebook\"></span><span class=\"offscreen\">Facebook</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".facebook"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.twitter.com/redhatnews\" class=\"sm-icon twitter\"><span class=\"web-icon-twitter\"></span><span class=\"offscreen\">Twitter</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".twitter"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li><a href=\"https://www.redhat.com/footer/privacy-policy.html\" class=\"privacy-policy\">Privacy Policy</a></li>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".legal-nav > ul > li:nth-child(1)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://www.redhat.com/footer/privacy-policy.html\" class=\"privacy-policy\">Privacy Policy</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".privacy-policy"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li><a href=\"https://www.redhat.com/en/about/terms-use\" class=\"terms-of-use\">Terms of use</a></li>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".legal-nav > ul > li:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://www.redhat.com/en/about/terms-use\" class=\"terms-of-use\">Terms of use</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".terms-of-use"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li><a href=\"https://www.redhat.com/en/about/all-policies-guidelines\" class=\"all-policies\">All policies and guidelines</a></li>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li:nth-child(3)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://www.redhat.com/en/about/all-policies-guidelines\" class=\"all-policies\">All policies and guidelines</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".all-policies"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures that every form element is not solely labeled using the title or aria-describedby attributes",
+            "help": "Form elements should have a visible label",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI",
+            "id": "label-title-only",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<input id=\"username\" class=\"form-control\" name=\"username\" value=\"\" type=\"text\" autocapitalize=\"off\" autocorrect=\"off\" maxlength=\"120\" placeholder=\"Red Hat login\" autofocus=\"\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "title-only",
+                            "impact": "serious",
+                            "message": "Form element does not solely use title attribute for its label",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#username"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<input id=\"password\" class=\"form-control\" name=\"password\" type=\"password\" autocomplete=\"off\" placeholder=\"Password\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "title-only",
+                            "impact": "serious",
+                            "message": "Form element does not solely use title attribute for its label",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#password"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.forms",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the banner landmark is at top level",
+            "help": "Banner landmark must not be contained in another landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-banner-is-top-level?application=axeAPI",
+            "id": "landmark-banner-is-top-level",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "role": "banner"
+                            },
+                            "id": "landmark-is-top-level",
+                            "impact": "moderate",
+                            "message": "The banner landmark is at the top level.",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<header class=\"masthead\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "header"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the contentinfo landmark is at top level",
+            "help": "Contentinfo landmark must not be contained in another landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-contentinfo-is-top-level?application=axeAPI",
+            "id": "landmark-contentinfo-is-top-level",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "role": "contentinfo"
+                            },
+                            "id": "landmark-is-top-level",
+                            "impact": "moderate",
+                            "message": "The contentinfo landmark is at the top level.",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<footer class=\"footer-main\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "footer"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the main landmark is at top level",
+            "help": "Main landmark must not be contained in another landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-main-is-top-level?application=axeAPI",
+            "id": "landmark-main-is-top-level",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "role": "main"
+                            },
+                            "id": "landmark-is-top-level",
+                            "impact": "moderate",
+                            "message": "The main landmark is at the top level.",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "main"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
             ]
         },
         {
@@ -809,10 +2496,17 @@
                             "id": "page-no-duplicate-banner",
                             "impact": "moderate",
                             "message": "Document has no more than one banner landmark",
-                            "relatedNodes": []
+                            "relatedNodes": [
+                                {
+                                    "html": "<header class=\"masthead\">",
+                                    "target": [
+                                        "header"
+                                    ]
+                                }
+                            ]
                         }
                     ],
-                    "html": "<html><head></head><body></body></html>",
+                    "html": "<html class=\"next\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -840,10 +2534,731 @@
                             "id": "page-no-duplicate-contentinfo",
                             "impact": "moderate",
                             "message": "Page does not have more than one contentinfo landmark",
+                            "relatedNodes": [
+                                {
+                                    "html": "<footer class=\"footer-main\">",
+                                    "target": [
+                                        "footer"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<html class=\"next\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark",
+            "help": "Page must have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-one-main?application=axeAPI",
+            "id": "landmark-one-main",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "page-has-main",
+                            "impact": "moderate",
+                            "message": "Page has at least one main landmark",
+                            "relatedNodes": [
+                                {
+                                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                                    "target": [
+                                        "main"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "data": null,
+                            "id": "page-no-duplicate-main",
+                            "impact": "moderate",
+                            "message": "Page does not have more than one main landmark",
+                            "relatedNodes": [
+                                {
+                                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                                    "target": [
+                                        "main"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "any": [],
+                    "html": "<html class=\"next\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI",
+            "id": "link-name",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<html><head></head><body></body></html>",
+                    "html": "<a class=\"top-nav-subscriptions\" href=\"http://www.redhat.com\">RedHat.com</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav-subscriptions"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"top-nav-downloads\" href=\"https://access.redhat.com\">Customer Portal</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav-downloads"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://www.redhat.com\" class=\"logo\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-xs-12 > .logo[href$=\"www.redhat.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"/auth/realms/redhat-external/login-actions/reset-credentials?client_id=https%3A%2F%2Fsso1.seertechsolutions.com%2Fopensaml-sp&amp;tab_id=OwEgQzqCAjo\">Forgot your login or password?</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".push-top > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"cta-link\" id=\"newMemberLink\" href=\"https://www.qa.redhat.com/wapps/ugc/register.html?redirect=https%3A%2F%2Ftraining-lms-qa.redhat.com%2Fsso%2Fsaml%2Fauth%2Fredhat\">Register</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#newMemberLink"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://www.qa.redhat.com/wapps/ugc/protected/usermgt/createNewUser.html\" class=\"cta-link\">Create new user*</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > .cta-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://access.redhat.com/support/contact/customerService/\" class=\"cta-link\">Contact customer service</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > .cta-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.redhat.com/summit/\" class=\"summit\"><img src=\"/auth/resources/7.2.6.ga/login/new-red-hat-theme/ugc/next/img/l_summit.png\" alt=\"Red Hat Summit\"></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".summit"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.linkedin.com/company/red-hat\" class=\"sm-icon linkedin\"><span class=\"web-icon-linkedin\"></span><span class=\"offscreen\">LinkedIn</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".linkedin"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.youtube.com/user/RedHatVideos\" class=\"sm-icon youtube\"><span class=\"web-icon-youtube\"></span><span class=\"offscreen\">YouTube</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".youtube"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.facebook.com/redhatinc\" class=\"sm-icon facebook\"><span class=\"web-icon-facebook\"></span><span class=\"offscreen\">Facebook</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".facebook"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.twitter.com/redhatnews\" class=\"sm-icon twitter\"><span class=\"web-icon-twitter\"></span><span class=\"offscreen\">Twitter</span></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".twitter"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://www.redhat.com/footer/privacy-policy.html\" class=\"privacy-policy\">Privacy Policy</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".privacy-policy"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://www.redhat.com/en/about/terms-use\" class=\"terms-of-use\">Terms of use</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".terms-of-use"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://www.redhat.com/en/about/all-policies-guidelines\" class=\"all-policies\">All policies and guidelines</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".all-policies"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "wcag244",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures that lists are structured correctly",
+            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/list?application=axeAPI",
+            "id": "list",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<ul>\n                                    <li><a class=\"top-nav-subscriptions\" href=\"http://www.redhat.com\">RedHat.com</a></li>\n                                    <li><a class=\"top-nav-downloads\" href=\"https://access.redhat.com\">Customer Portal</a></li>\n                                </ul>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "only-listitems",
+                            "impact": "serious",
+                            "message": "List element only has direct children that are allowed inside <li> elements",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".top-nav > ul"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<ul>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "only-listitems",
+                            "impact": "serious",
+                            "message": "List element only has direct children that are allowed inside <li> elements",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".legal-nav > ul"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/listitem?application=axeAPI",
+            "id": "listitem",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li><a class=\"top-nav-subscriptions\" href=\"http://www.redhat.com\">RedHat.com</a></li>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".top-nav > ul > li:nth-child(1)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li><a class=\"top-nav-downloads\" href=\"https://access.redhat.com\">Customer Portal</a></li>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".top-nav > ul > li:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li><a href=\"https://www.redhat.com/footer/privacy-policy.html\" class=\"privacy-policy\">Privacy Policy</a></li>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".legal-nav > ul > li:nth-child(1)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li><a href=\"https://www.redhat.com/en/about/terms-use\" class=\"terms-of-use\">Terms of use</a></li>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".legal-nav > ul > li:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li><a href=\"https://www.redhat.com/en/about/all-policies-guidelines\" class=\"all-policies\">All policies and guidelines</a></li>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li:nth-child(3)"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures <meta name=\"viewport\"> can scale a significant amount",
+            "help": "Users should be able to zoom and scale the text up to 500%",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-viewport-large?application=axeAPI",
+            "id": "meta-viewport-large",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "meta-viewport-large",
+                            "impact": "minor",
+                            "message": "<meta> tag does not prevent significant zooming on mobile devices",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "meta[name=\"viewport\"]"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "help": "Zooming and scaling must not be disabled",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI",
+            "id": "meta-viewport",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "meta-viewport",
+                            "impact": "critical",
+                            "message": "<meta> tag does not disable zooming on mobile devices",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "meta[name=\"viewport\"]"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "wcag2aa",
+                "wcag144"
+            ]
+        },
+        {
+            "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+            "help": "Page must contain a level-one heading",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI",
+            "id": "page-has-heading-one",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "page-has-heading-one",
+                            "impact": "moderate",
+                            "message": "Page has at least one level-one heading",
+                            "relatedNodes": [
+                                {
+                                    "html": "<h1 id=\"kc-header-wrapper\" class=\"\">        Log in to your Red Hat account\n</h1>",
+                                    "target": [
+                                        "#kc-header-wrapper"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "any": [],
+                    "html": "<html class=\"next\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -874,7 +3289,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<html><head></head><body></body></html>",
+                    "html": "<html class=\"next\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -888,40 +3303,226 @@
             ]
         }
     ],
-    "timestamp": "2020-04-12T09:33:46.662Z",
-    "url": "chrome-error://chromewebdata/",
+    "timestamp": "2020-04-13T14:15:42.397Z",
+    "url": "https://sso.qa.redhat.com/auth/realms/redhat-external/login-actions/authenticate?client_id=https%3A%2F%2Fsso1.seertechsolutions.com%2Fopensaml-sp&tab_id=OwEgQzqCAjo",
     "violations": [
         {
-            "description": "Ensures each HTML document contains a non-empty <title> element",
-            "help": "Documents must have <title> element to aid in navigation",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/document-title?application=axeAPI",
-            "id": "document-title",
+            "description": "Ensures role attribute has an appropriate value for the element",
+            "help": "ARIA role must be appropriate for the element",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI",
+            "id": "aria-allowed-role",
+            "impact": "minor",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": [
+                                "main"
+                            ],
+                            "id": "aria-allowed-role",
+                            "impact": "minor",
+                            "message": "role main  is not allowed for given element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  role main  is not allowed for given element",
+                    "html": "<main class=\"ugc-content-area\" role=\"main\">",
+                    "impact": "minor",
+                    "none": [],
+                    "target": [
+                        "main"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/autocomplete-valid?application=axeAPI",
+            "id": "autocomplete-valid",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "autocomplete-appropriate",
+                            "impact": "serious",
+                            "message": "the autocomplete value is inappropriate for this type of input",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "any": [],
+                    "failureSummary": "Fix all of the following:\n  the autocomplete value is inappropriate for this type of input",
+                    "html": "<input id=\"password\" class=\"form-control\" name=\"password\" type=\"password\" autocomplete=\"off\" placeholder=\"Password\">",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "#password"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135"
+            ]
+        },
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
+            "id": "color-contrast",
             "impact": "serious",
             "nodes": [
                 {
                     "all": [],
                     "any": [
                         {
-                            "data": null,
-                            "id": "doc-has-title",
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.1,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#08c0fc",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal"
+                            },
+                            "id": "color-contrast",
                             "impact": "serious",
-                            "message": "Document does not have a non-empty <title> element",
-                            "relatedNodes": []
+                            "message": "Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"main-content\">",
+                                    "target": [
+                                        ".main-content"
+                                    ]
+                                },
+                                {
+                                    "html": "<body class=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
                         }
                     ],
-                    "failureSummary": "Fix any of the following:\n  Document does not have a non-empty <title> element",
-                    "html": "<html><head></head><body></body></html>",
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 12.0pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/auth/realms/redhat-external/login-actions/reset-credentials?client_id=https%3A%2F%2Fsso1.seertechsolutions.com%2Fopensaml-sp&amp;tab_id=OwEgQzqCAjo\">Forgot your login or password?</a>",
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        "html"
+                        ".push-top > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.1,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#08c0fc",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"card card-white\" style=\"height: 13.5em\">",
+                                    "target": [
+                                        ".col-md-4:nth-child(1) > .card.card-white"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<a class=\"cta-link\" id=\"newMemberLink\" href=\"https://www.qa.redhat.com/wapps/ugc/register.html?redirect=https%3A%2F%2Ftraining-lms-qa.redhat.com%2Fsso%2Fsaml%2Fauth%2Fredhat\">Register</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "#newMemberLink"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.1,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#08c0fc",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"card card-white\" style=\"height: 13.5em\">",
+                                    "target": [
+                                        ".col-md-4:nth-child(2) > .card.card-white"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"https://www.qa.redhat.com/wapps/ugc/protected/usermgt/createNewUser.html\" class=\"cta-link\">Create new user*</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(2) > .card.card-white > .cta-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.1,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#08c0fc",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "bold"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"card card-white\" style=\"height: 13.5em\">",
+                                    "target": [
+                                        ".col-md-4:nth-child(3) > .card.card-white"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.1 (foreground color: #08c0fc, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"https://access.redhat.com/support/contact/customerService/\" class=\"cta-link\">Contact customer service</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".col-md-4:nth-child(3) > .card.card-white > .cta-link"
                     ]
                 }
             ],
             "tags": [
-                "cat.text-alternatives",
-                "wcag2a",
-                "wcag242"
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
             ]
         },
         {
@@ -943,7 +3544,7 @@
                         }
                     ],
                     "failureSummary": "Fix any of the following:\n  The <html> element does not have a lang attribute",
-                    "html": "<html><head></head><body></body></html>",
+                    "html": "<html class=\"next\">",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -958,67 +3559,130 @@
             ]
         },
         {
-            "description": "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark",
-            "help": "Page must have one main landmark",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-one-main?application=axeAPI",
-            "id": "landmark-one-main",
-            "impact": "moderate",
+            "description": "Ensures every form element has a label",
+            "help": "Form elements must have labels",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI",
+            "id": "label",
+            "impact": "critical",
             "nodes": [
                 {
-                    "all": [
+                    "all": [],
+                    "any": [],
+                    "failureSummary": "Fix all of the following:\n  Form element has explicit <label> that is hidden",
+                    "html": "<input id=\"username\" class=\"form-control\" name=\"username\" value=\"\" type=\"text\" autocapitalize=\"off\" autocorrect=\"off\" maxlength=\"120\" placeholder=\"Red Hat login\" autofocus=\"\">",
+                    "impact": "critical",
+                    "none": [
                         {
                             "data": null,
-                            "id": "page-has-main",
-                            "impact": "moderate",
-                            "message": "Page does not have a main landmark",
+                            "id": "hidden-explicit-label",
+                            "impact": "critical",
+                            "message": "Form element has explicit <label> that is hidden",
                             "relatedNodes": []
                         }
                     ],
-                    "any": [],
-                    "failureSummary": "Fix all of the following:\n  Page does not have a main landmark",
-                    "html": "<html><head></head><body></body></html>",
-                    "impact": "moderate",
-                    "none": [],
                     "target": [
-                        "html"
+                        "#username"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "failureSummary": "Fix all of the following:\n  Form element has explicit <label> that is hidden",
+                    "html": "<input id=\"password\" class=\"form-control\" name=\"password\" type=\"password\" autocomplete=\"off\" placeholder=\"Password\">",
+                    "impact": "critical",
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "hidden-explicit-label",
+                            "impact": "critical",
+                            "message": "Form element has explicit <label> that is hidden",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#password"
                     ]
                 }
             ],
             "tags": [
-                "cat.semantics",
-                "best-practice"
+                "cat.forms",
+                "wcag2a",
+                "wcag332",
+                "wcag131",
+                "section508",
+                "section508.22.n"
             ]
         },
         {
-            "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
-            "help": "Page must contain a level-one heading",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI",
-            "id": "page-has-heading-one",
-            "impact": "moderate",
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI",
+            "id": "link-name",
+            "impact": "serious",
             "nodes": [
                 {
-                    "all": [
+                    "all": [],
+                    "any": [
                         {
                             "data": null,
-                            "id": "page-has-heading-one",
-                            "impact": "moderate",
-                            "message": "Page must have a level-one heading",
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element does not have text that is visible to screen readers",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-presentation",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-none",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"none\"",
                             "relatedNodes": []
                         }
                     ],
-                    "any": [],
-                    "failureSummary": "Fix all of the following:\n  Page must have a level-one heading",
-                    "html": "<html><head></head><body></body></html>",
-                    "impact": "moderate",
-                    "none": [],
+                    "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+                    "html": "<a class=\"btn_slideto\" href=\"#\"><span class=\"web-icon-upload\"></span></a>",
+                    "impact": "serious",
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is in tab order and does not have accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
                     "target": [
-                        "html"
+                        ".btn_slideto"
                     ]
                 }
             ],
             "tags": [
-                "cat.semantics",
-                "best-practice"
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "wcag244",
+                "section508",
+                "section508.22.a"
             ]
         }
     ]
